@@ -1,6 +1,9 @@
-#include <IOKit/hidsystem/IOHIDEventSystemClient.h>
+//#include <IOKit/hidsystem/IOHIDEventSystemClient.h>
 #include <Foundation/Foundation.h>
 #include <stdio.h>
+
+typedef void * IOHIDEventSystemClientRef;
+void *IOHIDEventSystemClientCopyServices(void *);
 
 // Declarations from other IOKit source code
 
